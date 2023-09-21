@@ -1,0 +1,15 @@
+1)change project id by cmd 
+- gcloud config set project <project name> 
+2) create simple iinstance by cli 
+- gcloud compute instances create instance-name  --zone europe-east2-a
+3) to see the time to create
+- time gcloud compute instances create instance-name  --zone europe-east2-a
+# install cloudsdk 
+initialize gcloud
+- gloud init 
+# shows 
+4) check version
+- gcloud --version
+5) configure project id in sdk
+- gcloud config set project <project name> 
+6) 
